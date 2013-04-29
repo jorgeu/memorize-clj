@@ -5,6 +5,9 @@ inspired in Groovy's memorize().
 
 It supports pure functions and should only used if the function is really slow.
 
+Clojure.core has something like this already (memoize) but noticed
+after writting this. So, move along.
+
 ## Installing
 
 lein dep:
