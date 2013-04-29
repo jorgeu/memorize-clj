@@ -6,7 +6,7 @@ inspired in Groovy's memorize().
 It supports pure functions and should only used if the function is really slow.
 
 Clojure.core has something like this already (memoize) but noticed
-after writting this. So, only value here is the cache using Google Guava
+after writting this. So, the only value here is the cache using Google Guava
 that allows to configure how many concurrent threads will use it.
 
 ## Installing
