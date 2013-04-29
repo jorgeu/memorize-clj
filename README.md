@@ -4,7 +4,7 @@ A small Clojure library providing a way to memorize pure function results
 inspired in Groovy's memorize().
 
 It supports pure functions and should only used if the function is really slow.
-u
+
 Clojure.core has something like this already (memoize) but noticed
 after writting this. So, only value here is the cache using Google Guava
 that allows to configure how many concurrent threads will use it.
